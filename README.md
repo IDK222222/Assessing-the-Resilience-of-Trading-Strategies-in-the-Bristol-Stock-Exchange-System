@@ -1,15 +1,19 @@
 Trading Strategy Evaluation
-This project focuses on evaluating various trading strategies using stochastic market simulation. It provides an analysis of different trading strategies and their performance metrics such as profitable trades, max drawdown, sharpe ratio, and resilience index.
+This project focuses on evaluating various trading strategies using stochastic market simulation.
+It provides an analysis of different trading strategies and their performance metrics such as profitable trades, max drawdown, sharpe ratio, and resilience index.
 
 Prerequisites
 To run this code, you need the following libraries:
 
 NumPy
 Pandas
+
 You can install these libraries using pip:
 pip install numpy pandas
+
 How It Works
-The code consists of several functions and a main function that orchestrates the simulation and evaluation process. Here's an overview of the key components:
+The code consists of several functions and a main function that orchestrates the simulation and evaluation process. 
+Here's an overview of the key components:
 
 simulate_market(prices, noise_level, days): This function simulates a stochastic market by generating random returns based on the historical price data. It returns simulated prices for the given number of days.
 
